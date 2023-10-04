@@ -35,7 +35,9 @@ Contributions are essential for the growth of open source projects. Here's how y
 - Wait for an issue to be assigned to you before you start working on it.
 - Fork the repository and create a branch for your issue.
 - Submit a pull request with your changes, which will be reviewed by the project maintainers.
-- Don't forget to include screenshots to provide visual context for your contribution.
+- Don't forget to include screenshots to provide visual context for your contribution 
+                                      (or)
+- host your static website using any hosting platform and add the link in you PR
 
 We welcome contributions from developers of all skill levels and encourage collaboration to build your best/first web project 👍
 

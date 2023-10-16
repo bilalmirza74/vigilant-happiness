@@ -1,0 +1,66 @@
+body {
+    font-family: monospace;
+    font-size: 18px;
+    color: grey;
+    background-color: #eee;
+    height: 100%;
+  }
+  
+  button {
+    font-family: cursive;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    color: maroon;
+  }
+  
+  input {
+    font-family: cursive;
+    font-weight: 600;
+    height: 35px;
+    width: 200px;
+  }
+  
+  #result {
+    color: green;
+  }
+  
+  #ch {
+    color: #500;
+  }
+  
+  #pc {
+    color: #500;
+  }
+  
+  #ch, #pc, #result {
+   font-weight :600;
+  }
+
+p{
+display : inline-block;
+color: #500;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rebeccapurple;
+}
+input{
+    position: absolute;
+    left: 500px;
+    font-size: 22px;
+}
+button{
+    position: absolute;
+    left: 750px;
+    background-color: lightcyan;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+h5{
+    font-size: 25px;
+    color: rebeccapurple;
+}

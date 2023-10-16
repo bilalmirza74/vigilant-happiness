@@ -1,0 +1,57 @@
+@media  screen and (max-width: 1000px) {
+    .navbar{
+        flex-direction: column;
+    }
+
+    .navright{
+        margin: 10px 0px;
+    }
+
+    .row{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .webbody{
+        height: 40vh;
+    }
+
+    .contactform{
+        height: 30vh;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+
+    .siteintro p{
+        font-size: 12px;
+    }
+
+    .margin10{
+        margin: 10px 0px;
+    }
+
+    .service-articles{
+        max-width: 100vw;
+    }
+
+    .getemail{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .getemail .signup{
+        margin: 10px 0px;
+        width: 40vw;
+    }
+
+    .getemail input[type="email"]{
+        width: 60vw;
+    }
+
+    footer p{
+        font-size: 19px;
+    }
+
+}

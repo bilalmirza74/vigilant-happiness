@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
+
+/* font-family: 'Baloo Paaji 2', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font1: 'Baloo Bhai 2', cursive;
+    --font2: 'Ubuntu', sans-serif;
+    --font3: 'Baloo Paaji 2', cursive;
+}
+
+.btn{
+    font-family: var(--font1);
+    font-size: 15px;
+    padding: 0px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: var(--secondary);
+    color: white;
+}
+
+.hr{
+    margin-top: 5px;
+}
+
+.maxwidth1{
+    width: 100vw;
+
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.margin10{
+    margin: 20px;
+}
+
+.padding5{
+    padding: 3px 5px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}

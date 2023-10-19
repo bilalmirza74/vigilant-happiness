@@ -1,0 +1,166 @@
+/* GALLERY ITEMS */
+
+.fg-gallery:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.gallery-items {
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    height: 220px;
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+/* GALLERY COLUMNS */
+
+.cols-2 .gallery-items {
+    width: 49%;
+}
+
+.cols-2 .gallery-items:nth-child(2n+2) {
+    margin-right: 0;
+}
+
+.cols-3 .gallery-items {
+    width: 32%;
+}
+
+.cols-3 .gallery-items:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.cols-4 .gallery-items {
+    width: 23%;
+}
+
+.cols-4:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.cols-5 .gallery-items {
+    width: 18.4%;
+}
+
+.cols-5 .gallery-items:nth-child(5n+5) {
+    margin-right: 0;
+}
+
+.cols-6 .gallery-items {
+    width: 15%;
+}
+
+.cols-6 .gallery-items:nth-child(6n+6) {
+    margin-right: 0;
+}
+
+/* GALLERY DATA */
+
+.gallery-data {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+.gallery-data.active {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+
+.data-items {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.data-items.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.item-border {
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.data-items.active .item-border {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* arrows */
+
+.gallery-arrow {
+    position: fixed;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.gallery-arrow>svg {
+    fill: #fff;
+    transition: all .2s ease;
+    transform: scale(1);
+}
+
+.gallery-arrow:active svg {
+    transition-duration: .0s;
+    transform: scale(.9);
+}
+
+.next-btn {
+    right: 25px;
+}
+
+.prev-btn {
+    left: 25px;
+}
+
+/* close button */
+
+.close-btn {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 75px;
+    height: 75px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.close-btn svg {
+    fill: #fff;
+    width: 15px;
+    height: 15px;
+    transition: all .5s ease;
+    transform: rotateZ(0deg);
+}
+
+.close-btn:hover svg {
+    transform: rotateZ(180deg);
+}

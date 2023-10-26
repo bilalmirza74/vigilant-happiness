@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&family=Cinzel:wght@900&family=Lato:wght@700&family=Open+Sans:wght@500;600&family=Roboto+Mono:wght@300&family=Rubik&display=swap');
+body{
+    background-color:  black;
+    background-image: url();
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;  
+    height: 60px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 0px 10px;
+    margin: 0px;   
+}
+.logo img{
+  height: 45px;
+  margin-right: 6px;
+  border-radius: 50%;
+  
+}
+.logo{
+    font-weight: bolder; 
+    font-size: 1.1rem;
+}
+.container{
+    min-height: 34vw;
+    background-color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.6rem;
+    margin:10px auto;
+    width:  65%;
+    /* display: flex; */
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url('./music3.jpg');
+    background-size: cover;
+}
+.cursive{
+    font-style: cursive;
+}
+.bottom{
+    position: sticky;
+    height: 20px;
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+}
+#myProgressBar{
+    width: 39vw;
+    height: 0.4vh;
+    cursor: pointer;
+
+}
+.icons{
+    /* padding: 50px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+}
+.icons i{
+     cursor: pointer;
+     font-size: 25px;
+     padding:15px 20px;
+     text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+#play1{
+    /* height: 40px; */
+    /* font-size: 30px; */
+    padding: 10px;
+}
+.songItem1{
+    height: 40px;
+    width:  26vw;
+    background-color: whitesmoke;
+    margin: 40px 0px 0px 5px;
+    border-radius: 60px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+}
+.songItem11{
+    height: 35px;
+    width: 36px;
+    margin: 1px 0px 0px 20px;
+    border-radius: 50px;
+}
+.timespan{
+    margin: 0px 4px;
+}
+.songItem2{
+    height: 40px;
+    width:  26vw;
+    background-color: whitesmoke;
+    margin: 5px 0px 0px 5px;
+    border-radius: 60px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    border: 1px solid black;
+}
+.time i{
+    cursor: pointer;
+    margin-right: 4px;
+}
+.songInfo img{
+    position: absolute;
+    left: 0;
+   width: 30px;
+   height: 15px;
+}
+.songInfo{
+    position: absolute;
+    left: 30px;
+    top: -40px;
+    color: white;
+  
+}
+#masterSongName{
+    padding: 0px 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+#author{
+    font-family: 'Inter', sans-serif;
+    margin-left: 45px;
+    margin-top: 4px;
+    color: whitesmoke;
+    font-size: 10px;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.songItemPLay{
+    margin-right: 4px;
+}
+
+@media screen and (max-width: 1164px) {
+    .container{
+        width:85%;
+
+    }
+    .songName{
+        font-size: 0.6rem;
+    }
+    
+  }
+  @media screen and (max-width: 988px) {
+    .container{
+        width:85%;
+        background-size:auto;
+
+    }
+    .songName{
+        font-size: 0.7rem;
+    }
+    .songItem1{
+        width: 35vw;
+    }
+    .songItem2{
+        width: 35vw;
+
+    }
+    .timespan{
+        font-size: 0.6rem;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    .container{
+        width:85%;
+        background-size:auto;
+
+    }
+    .songName{
+        font-size: 0.7rem;
+    }
+    .songItem1{
+        width: 50vw;
+    }
+    .songItem2{
+        width: 50vw;
+
+    }
+    .timespan{
+        font-size: 0.6rem;
+    }
+
+    #masterSongName{
+        padding-left: 20px;
+        margin-top: 5px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+    }
+    #author{
+        font-family: 'Inter', sans-serif;
+        padding-left: 15px;
+        margin-left: 6px;
+        margin-top: 4px;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+    #previous{
+        margin-left: 100px;
+    }
+    #myProgressBar{
+        margin-left: 100px;
+
+    }
+    #gif{
+        padding:0;
+        height: 10px;
+        width: 15px;
+    }
+
+  }
+
+  @media screen and (max-width: 530px) {
+    .container{
+        width:85%;
+        background-size:auto;
+
+    }
+    .songName{
+        font-size: 0.7rem;
+    }
+    .songItem1{
+        width: 79vw;
+    }
+    .songItem2{
+        width: 79vw;
+
+    }
+    .timespan{
+        font-size: 0.6rem;
+    }
+
+    #masterSongName{
+        padding-left: 15px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 11px;
+    }
+    #author{
+        font-family: 'Inter', sans-serif;
+        padding-left: 8px;
+        margin-left: 8px;
+        margin-top: 4px;
+        color: whitesmoke;
+        font-size: 9px;
+    }
+    #previous{
+        margin-left: 120px;
+    }
+    #myProgressBar{
+        margin-left: 120px;
+
+    }
+    #gif{
+        padding:0;
+        height: 7px;
+        width: 10px;
+    }
+
+  }
+
+  @media screen and (max-width: 360px) {
+    .container{
+        width:85%;
+        background-size:auto;
+
+    }
+    .songName{
+        font-size: 0.6rem;
+    }
+    .songItem1{
+        width: 85vw;
+    }
+    .songItem2{
+        width: 85vw;
+
+    }
+    .timespan{
+        font-size: 0.6rem;
+    }
+
+    #masterSongName{
+        padding-left: 11px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 9px;
+    }
+    #author{
+        font-family: 'Inter', sans-serif;
+        padding-left: 8px;
+        margin-left: 8px;
+        margin-top: 4px;
+        color: whitesmoke;
+        font-size: 9px;
+    }
+    #previous{
+        margin-left: 120px;
+        padding: 0;
+    }
+    #masterPlay{
+        padding: 12px; 
+    }
+    #next{
+        padding: 0;
+    }
+    #myProgressBar{
+        margin-left: 120px;
+
+    }
+    #gif{
+        padding:0;
+        height: 6px;
+        width: 9px;
+    }
+
+  }

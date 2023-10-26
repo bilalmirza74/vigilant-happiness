@@ -1,0 +1,17 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); */
+ /* font-family: 'Noto Sans', sans-serif;  */
+ /* <i class="fa-duotone fa-3x fa-backward-step"></i>
+ <i class="fa-duotone fa-3x fa-forward-step"></i> */
+
+
+ else{
+    audioElement.pause();
+    e.target.classList.remove('fa-pause-circle');
+    e.target.classList.add('fa-play-circle'); 
+   gif.style.opacity = 0;
+   masterPlay.classList.remove('fa-pause-circle');
+   masterPlay.classList.add('fa-play-circle');
+
+}
+
+bgcolor="b0c4de";color="red">

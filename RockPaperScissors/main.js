@@ -14,7 +14,6 @@ if (computerChoice < 0.34) {
 } document.getElementById('ch').innerHTML = "Computer: " + computerChoice;
 
 document.getElementById('result').innerHTML = compare(userChoice,computerChoice);
-document.getElementById('input').value = "";
 document.getElementById('pscore').innerHTML = "You : " + plyscore;
 document.getElementById('cscore').innerHTML = "Computer : "  + comscore;
 }

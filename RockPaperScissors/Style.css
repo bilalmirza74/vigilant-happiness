@@ -60,6 +60,12 @@ button{
     border: none;
     font-size: 20px;
 }
+select{
+  position: absolute;
+  left: 630px;
+  height: 30px;
+  font-size: 1.1rem;
+}
 h5{
     font-size: 25px;
     color: rebeccapurple;

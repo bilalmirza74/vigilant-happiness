@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>Pokéfinder</title>
+</head>
+<body>
+    <header>
+        <h1>Pokéfinder</h1>
+    </header>
+    <main>
+        <div class="popup-container">
+            <div class="popup">
+                <div class="poke-images">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon" class="pokemon-img poke-animation">
+                </div>
+                <span class="popup-pokemon-name">Bulbizar</span>
+                <span class="pokemon-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, accusamus id. Blanditiis quo provident hic quod culpa vero architecto tempore, voluptates, eos eius cumque esse doloribus libero voluptas iste incidunt. Quia dignissimos eaque dolorum molestias non velit, voluptates, id rerum molestiae, reiciendis nulla! Nemo officiis odio numquam omnis consequuntur. Alias.</span>
+                <div class="stats">
+                    <span class="stat-hp">HP : 255</span>
+                    <span class="stat-speed">SPEED : 255</span>
+                    <span class="stat-atk">ATK : 255</span>
+                    <span class="stat-atkspe">ATKSPE : 255</span>
+                    <span class="stat-def">DEF : 255</span>
+                    <span class="stat-defspe">DEFSPE : 255</span>
+                </div>
+            </div>
+            <span class="close-popup">❌</span>
+        </div>
+        <img src="pokeball.png" alt="pokeball" class="pokeball-img">
+        <div class="search-bar">
+            <label for="pokemon-name">Search for a pokémon :</label>
+            <input type="text" name="pokemon-name" id="pokemon-name">
+            <button class="search-button">Search !</button>
+            <button class="random-button">Random 🔁</button>
+            <span class="error-msg"></span>
+        </div>
+    </main>
+</body>
+</html>

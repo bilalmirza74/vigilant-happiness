@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Playpen Sans;
+    background-image: url('Awesome-Website-Background1.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   box-sizing: border-box;
+}
+.main {
+    overflow-y:auto;
+}
+.todoh1{
+  margin:0px 209px ;
+  font-size:65px ;
+  font-family: 'Brush Script MT', cursive;
+  padding :0px;
+
+  color: red;
+  text-shadow: 2px 2px lightpink;    
+}
+.box{
+    width:540px;
+  /* background-image: url('box_logo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: linear-gradient(45deg,lightblue,hotpink);
+    margin:0px 430px 20px;
+    padding:170px 30px 70px;
+    border-radius: 10px;
+    height:90px;
+    border:5px solid orange;
+      position:relative;
+      overflow-y: auto;   
+}
+.box img{
+    position: absolute;
+    top: 0;
+    margin:0px 2px 0px -32px ;
+}
+span {
+    
+    position: absolute;
+    left: 442px;
+    top: -12px;
+    height:58px;
+    /* left: 495px; */
+    border-radius: 10%;
+    
+    color: crimson;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.wis{
+     margin-left: 618px;
+}
+ .wis img{
+    border-radius: 10px;
+}
+.row{
+    display:flex;
+    align-items: center;
+        padding-left:19px;
+    border-radius: 30px;  
+    position: absolute;
+    top: 60px;
+    right: 33px;
+}
+.row button{
+    margin-left: 118px;
+    border-radius: 4px;
+    padding:10px 12px;
+    color: black; 
+    border: 2px solid #8B0000;
+    background: yellow;
+    font-family: cursive;
+    
+}
+
+  
+  .row button:hover {
+    background-color: greenyellow;
+    color:orangered;
+    font-family: cursive;
+    
+  }
+input{
+    border-radius:3px;
+    background:pink;
+    padding:10px;
+    padding-right: 195px;
+    border:none;
+     margin-left:35;
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding:12px 8px 12px 50px;
+    user-select: none;
+    position: relative;
+}
+ul li::before{
+    content:'';
+    position:absolute;
+    height:28px;
+    width:28px;
+    border-radius:50%;
+    background-image:url(un_ch.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    top:8px;
+    right:59px;
+}
+#list-cont{
+    margin-top:0px;
+    margin-bottom: 24px;
+    position :absolute;
+    top:123px;
+}
+ul li.checked{
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url('check.jpeg');
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    background-size: cover;
+    background-position: center;
+    top:8px;
+    right:59px;
+}

@@ -18,8 +18,8 @@ These web projects showcase only the Tech Stack, making them ideal for learning 
 
 Getting involved in open source is a great way to learn and contribute to the community. Here are some steps to help you get started:
 
-1. **Clone the Repository**: Use `git clone` to clone your forked repository to your local machine.
-2. **Fork the Repository**: Click the "Fork" button at the top right of this repository to create your own copy.
+1. **Fork the Repository**: Click the "Fork" button at the top right of this repository to create your own copy.
+2. **Clone the Repository**: Use `git clone` to clone your forked repository to your local machine. E.G `git clone https://github.com/USERNAME/vigilant-happiness.git`.
 3. **Contribute**: Explore the existing issues or create new ones. Pick an issue that interests you and start working on it.
 4. **Create a Branch**: For the issue you're working on, create a new branch in your local repository.
 5. **Make Changes**: Write your code, make improvements, and test your changes thoroughly.

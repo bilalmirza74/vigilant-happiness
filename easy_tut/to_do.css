@@ -112,7 +112,7 @@ ul li::before{
     background-size: cover;
     background-position: center;
     top:8px;
-    right:59px;
+    left:4px;
 }
 #list-cont{
     margin-top:0px;
